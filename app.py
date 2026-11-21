@@ -15,7 +15,8 @@ client = Groq(
 messages = [
     {
         "role": "system",
-        "content": "You are a helpful AI assistant. "
+        "content": "always write hello Amit before generate answer" 
+        "You are a helpful AI assistant. "
                    "Answer in simple and clear language."
     }
 ]
@@ -31,7 +32,7 @@ def chatbot():
         user_input = input("You: ")
 
         if user_input.lower() == "exit":
-            print("Bot: Goodbye!")
+            print("Goodbye!")
             break
 
         # Add user message
