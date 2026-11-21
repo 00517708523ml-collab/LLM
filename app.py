@@ -16,7 +16,7 @@ messages = [
     {
         "role": "system",
         "content": "You are a helpful AI assistant. "
-                   "you are senior software enginner generate code"
+                   "Answer in simple and clear language."
     }
 ]
 
@@ -31,7 +31,7 @@ def chatbot():
         user_input = input("You: ")
 
         if user_input.lower() == "exit":
-            print("Bot: Goodbye!")
+            print("Goodbye!")
             break
 
         # Add user message
