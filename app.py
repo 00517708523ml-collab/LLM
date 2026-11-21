@@ -16,7 +16,7 @@ messages = [
     {
         "role": "system",
         "content": "You are a helpful AI assistant. "
-                   "Answer in simple and clear language."
+                   "you are senior software enginner generate code"
     }
 ]
 
