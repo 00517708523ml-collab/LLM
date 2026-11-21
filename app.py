@@ -43,7 +43,7 @@ def chatbot():
         try:
             # Call Groq API
             response = client.chat.completions.create(
-                model="openai/gpt-oss-20b",
+                model="openai/gpt-oss-120b",
                 messages=messages,
                 temperature=0.7,
                 max_completion_tokens=1024
